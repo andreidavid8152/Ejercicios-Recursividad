@@ -24,7 +24,7 @@ public class Fibonacci {
 
     public String imprimirFibo(int n) {
         String text = "";
-        for (int i = 0; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             text += fibonacciR(i) + ", ";
         }
         return text;
